@@ -11,8 +11,12 @@
 		9C0059B126A2A9ED000D8879 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0059B026A2A9ED000D8879 /* ContentView.swift */; };
 		9C0059B326A2A9EF000D8879 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C0059B226A2A9EF000D8879 /* Assets.xcassets */; };
 		9C0059B626A2A9EF000D8879 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C0059B526A2A9EF000D8879 /* Preview Assets.xcassets */; };
-		9C41DFD226A2AD1600CB2110 /* imb.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 9C41DFD126A2AD1600CB2110 /* imb.ahap */; };
-		9C41DFD426A2AD2700CB2110 /* In My Blood.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C41DFD326A2AD2700CB2110 /* In My Blood.mp3 */; };
+		9CB0AA1226A362EE005A0D6D /* SongCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB0AA1126A362EE005A0D6D /* SongCardView.swift */; };
+		9CB0AA1726A36305005A0D6D /* In My Blood.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9CB0AA1326A36305005A0D6D /* In My Blood.mp3 */; };
+		9CB0AA1826A36305005A0D6D /* Heat Waves.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 9CB0AA1426A36305005A0D6D /* Heat Waves.ahap */; };
+		9CB0AA1926A36305005A0D6D /* Heat Waves.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9CB0AA1526A36305005A0D6D /* Heat Waves.mp3 */; };
+		9CB0AA1A26A36305005A0D6D /* In My Blood.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 9CB0AA1626A36305005A0D6D /* In My Blood.ahap */; };
+		9CB0AA1D26A3631B005A0D6D /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 9CB0AA1C26A3631B005A0D6D /* URLImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +25,12 @@
 		9C0059B026A2A9ED000D8879 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9C0059B226A2A9EF000D8879 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C0059B526A2A9EF000D8879 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9C41DFD126A2AD1600CB2110 /* imb.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = imb.ahap; sourceTree = "<group>"; };
-		9C41DFD326A2AD2700CB2110 /* In My Blood.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "In My Blood.mp3"; sourceTree = "<group>"; };
 		9C41DFD526A2ADDD00CB2110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9CB0AA1126A362EE005A0D6D /* SongCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongCardView.swift; sourceTree = "<group>"; };
+		9CB0AA1326A36305005A0D6D /* In My Blood.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "In My Blood.mp3"; sourceTree = "<group>"; };
+		9CB0AA1426A36305005A0D6D /* Heat Waves.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Heat Waves.ahap"; sourceTree = "<group>"; };
+		9CB0AA1526A36305005A0D6D /* Heat Waves.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Heat Waves.mp3"; sourceTree = "<group>"; };
+		9CB0AA1626A36305005A0D6D /* In My Blood.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "In My Blood.ahap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CB0AA1D26A3631B005A0D6D /* URLImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,9 +66,12 @@
 			children = (
 				9C41DFD526A2ADDD00CB2110 /* Info.plist */,
 				9C0059AE26A2A9ED000D8879 /* MusicWitHapticsApp.swift */,
-				9C41DFD326A2AD2700CB2110 /* In My Blood.mp3 */,
-				9C41DFD126A2AD1600CB2110 /* imb.ahap */,
+				9CB0AA1426A36305005A0D6D /* Heat Waves.ahap */,
+				9CB0AA1526A36305005A0D6D /* Heat Waves.mp3 */,
+				9CB0AA1626A36305005A0D6D /* In My Blood.ahap */,
+				9CB0AA1326A36305005A0D6D /* In My Blood.mp3 */,
 				9C0059B026A2A9ED000D8879 /* ContentView.swift */,
+				9CB0AA1126A362EE005A0D6D /* SongCardView.swift */,
 				9C0059B226A2A9EF000D8879 /* Assets.xcassets */,
 				9C0059B426A2A9EF000D8879 /* Preview Content */,
 			);
@@ -91,6 +102,9 @@
 			dependencies = (
 			);
 			name = MusicWitHaptics;
+			packageProductDependencies = (
+				9CB0AA1C26A3631B005A0D6D /* URLImage */,
+			);
 			productName = MusicWitHaptics;
 			productReference = 9C0059AB26A2A9ED000D8879 /* MusicWitHaptics.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +133,9 @@
 				Base,
 			);
 			mainGroup = 9C0059A226A2A9ED000D8879;
+			packageReferences = (
+				9CB0AA1B26A3631B005A0D6D /* XCRemoteSwiftPackageReference "url-image" */,
+			);
 			productRefGroup = 9C0059AC26A2A9ED000D8879 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -133,10 +150,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C41DFD226A2AD1600CB2110 /* imb.ahap in Resources */,
 				9C0059B626A2A9EF000D8879 /* Preview Assets.xcassets in Resources */,
-				9C41DFD426A2AD2700CB2110 /* In My Blood.mp3 in Resources */,
+				9CB0AA1926A36305005A0D6D /* Heat Waves.mp3 in Resources */,
+				9CB0AA1726A36305005A0D6D /* In My Blood.mp3 in Resources */,
+				9CB0AA1A26A36305005A0D6D /* In My Blood.ahap in Resources */,
 				9C0059B326A2A9EF000D8879 /* Assets.xcassets in Resources */,
+				9CB0AA1826A36305005A0D6D /* Heat Waves.ahap in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C0059B126A2A9ED000D8879 /* ContentView.swift in Sources */,
+				9CB0AA1226A362EE005A0D6D /* SongCardView.swift in Sources */,
 				9C0059AF26A2A9ED000D8879 /* MusicWitHapticsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,6 +381,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9CB0AA1B26A3631B005A0D6D /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9CB0AA1C26A3631B005A0D6D /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9CB0AA1B26A3631B005A0D6D /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9C0059A326A2A9ED000D8879 /* Project object */;
 }
