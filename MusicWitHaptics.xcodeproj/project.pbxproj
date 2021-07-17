@@ -11,6 +11,8 @@
 		9C0059B126A2A9ED000D8879 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0059B026A2A9ED000D8879 /* ContentView.swift */; };
 		9C0059B326A2A9EF000D8879 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C0059B226A2A9EF000D8879 /* Assets.xcassets */; };
 		9C0059B626A2A9EF000D8879 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C0059B526A2A9EF000D8879 /* Preview Assets.xcassets */; };
+		9C41DFD226A2AD1600CB2110 /* imb.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 9C41DFD126A2AD1600CB2110 /* imb.ahap */; };
+		9C41DFD426A2AD2700CB2110 /* In My Blood.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C41DFD326A2AD2700CB2110 /* In My Blood.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		9C0059B026A2A9ED000D8879 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9C0059B226A2A9EF000D8879 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C0059B526A2A9EF000D8879 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9C41DFD126A2AD1600CB2110 /* imb.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = imb.ahap; sourceTree = "<group>"; };
+		9C41DFD326A2AD2700CB2110 /* In My Blood.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "In My Blood.mp3"; sourceTree = "<group>"; };
+		9C41DFD526A2ADDD00CB2110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +56,10 @@
 		9C0059AD26A2A9ED000D8879 /* MusicWitHaptics */ = {
 			isa = PBXGroup;
 			children = (
+				9C41DFD526A2ADDD00CB2110 /* Info.plist */,
 				9C0059AE26A2A9ED000D8879 /* MusicWitHapticsApp.swift */,
+				9C41DFD326A2AD2700CB2110 /* In My Blood.mp3 */,
+				9C41DFD126A2AD1600CB2110 /* imb.ahap */,
 				9C0059B026A2A9ED000D8879 /* ContentView.swift */,
 				9C0059B226A2A9EF000D8879 /* Assets.xcassets */,
 				9C0059B426A2A9EF000D8879 /* Preview Content */,
@@ -125,7 +133,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C41DFD226A2AD1600CB2110 /* imb.ahap in Resources */,
 				9C0059B626A2A9EF000D8879 /* Preview Assets.xcassets in Resources */,
+				9C41DFD426A2AD2700CB2110 /* In My Blood.mp3 in Resources */,
 				9C0059B326A2A9EF000D8879 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,9 +279,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MusicWitHaptics/Preview Content\"";
-				DEVELOPMENT_TEAM = 95566VVRBB;
+				DEVELOPMENT_TEAM = CUA3BVMUR5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MusicWitHaptics/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = MusicWitHaptics;
+				INFOPLIST_KEY_CFBundleName = MusicWitHaptics;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -283,7 +297,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ryandu.musicwithaptics.MusicWitHaptics;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryandu.musicwithaptics1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -299,9 +313,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MusicWitHaptics/Preview Content\"";
-				DEVELOPMENT_TEAM = 95566VVRBB;
+				DEVELOPMENT_TEAM = CUA3BVMUR5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MusicWitHaptics/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = MusicWitHaptics;
+				INFOPLIST_KEY_CFBundleName = MusicWitHaptics;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -313,7 +331,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ryandu.musicwithaptics.MusicWitHaptics;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryandu.musicwithaptics1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
