@@ -4,7 +4,7 @@
 
 **Hey Hey Hey 👋!** 
 
-Ryan here, I'm experimenting with converting music (in the form of .wav files) into haptics (ahap files) :D. Heres a repo showcasing my progress so far-. 
+Ryan here, I'm experimenting with converting music (in the form of .wav files) into haptics (ahap files) :D. Heres a repo showcasing my progress so far-. The actual conversion of music to haptic isn't included in this repo just yet- might publish to a different seperate repo eventually. And for those of you wondering how it works- well its just sum python :D. 
 
 ## Try it yourself
 Wanna ~~ feel ~~ my progress? Just:
