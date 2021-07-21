@@ -16,7 +16,7 @@ struct ContentView: View {
     @State var url: URL? = nil
     @State var engine: CHHapticEngine!
     @State var player: AVAudioPlayer?
-    @State var advancedHapticPlayer: CHHapticAdvancedPatternPlayer?
+    @State var hapticPlayer: CHHapticAdvancedPatternPlayer?
     @State var songs = ["In My Blood", "Heat Waves"]
     @State var isPlaying = false
     var body: some View {
@@ -41,7 +41,7 @@ struct ContentView: View {
                                 self.playHapticSong(name: songs[0])
                             } else {
                                 self.player?.play()
-                                try? self.advancedHapticPlayer?.resume(atTime: 0)
+                                try? self.hapticPlayer?.resume(atTime: CHHapticTimeImmediate)
                                 self.isPlaying = true
                             }
                         }, label: {
@@ -51,7 +51,7 @@ struct ContentView: View {
                         Button(action: {
                             if self.player != nil{
                                 self.player?.pause()
-                                try? self.advancedHapticPlayer?.pause(atTime: 0)
+                                try? self.hapticPlayer?.pause(atTime: CHHapticTimeImmediate)
                                 self.isPlaying = false
                             }
                         }, label: {
@@ -103,19 +103,17 @@ struct ContentView: View {
             let path = Bundle.main.path(forResource: name, ofType:"mp3")!
             let url = URL(fileURLWithPath: path)
             
-            player = try AVAudioPlayer(contentsOf: url)
-//            player?.prepareToPlay()
+            self.player = try AVAudioPlayer(contentsOf: url)
             
             guard let ahapPattern = createPatternFromAHAP(name) else { return }
-            self.advancedHapticPlayer = try self.engine.makeAdvancedPlayer(with:ahapPattern)
+            self.hapticPlayer = try self.engine.makeAdvancedPlayer(with:ahapPattern)
             
-            
-            try self.advancedHapticPlayer?.start(atTime: 0)
+            try self.hapticPlayer?.start(atTime: 0)
             player?.play()
             self.isPlaying = true
             
         } catch {
-            print("SOMETHING WENT WRONG: \(error)")
+            print("SOMETHING WENT WRONG: \(error.localizedDescription)")
         }
     }
 }

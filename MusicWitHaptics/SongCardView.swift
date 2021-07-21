@@ -27,9 +27,10 @@ struct SongCardView: View {
                     .font(.caption)
             }
             Spacer()
-        }
-        .padding(.vertical)
-        .padding(.horizontal)
+        }//.padding(.vertical)
+        
+        .padding(.trailing)
+        .clipShape(RoundedRectangle(cornerRadius: 5))
         .background(RoundedRectangle(cornerRadius: 5).foregroundColor(.white).shadow(radius: 8))
         .padding(.horizontal)
     }
